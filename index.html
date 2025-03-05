@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dynamic Image Slider</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    
+    <nav>
+        <div class="nav-container">
+            <div class="logo">Image Slider</div>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="#services">Services</a></li>
+              
+            </ul>
+            <div class="menu-toggle" id="mobile-menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+   
+    <div class="slider-container">
+        
+        <div class="slider">
+            <div class="slide">
+                <img src="1.jpg" alt="Image 1">
+                <div class="caption">Into the Verse</div>
+            </div>
+            <div class="slide">
+                <img src="2.jpg" alt="Image 2">
+                <div class="caption">Milles</div>
+            </div>
+            <div class="slide">
+                <img src="batman.jpg.jpg" alt="Image 3">
+                <div class="caption">Bruce Wayne</div>
+            </div>
+            <div class="slide">
+                <img src="imbatman.jpg" alt="Image 4">
+                <div class="caption">BatMan</div>
+            </div>
+        </div>
+        
+
+       
+        <button class="prev-btn">&#10094;</button>
+        
+        <button class="next-btn">&#10095;</button>
+    </div>
+
+
+    <div class="thumbnails">
+        <img src="1.jpg" alt="Thumbnail 1" class="thumbnail" data-index="0">
+        <img src="2.jpg" alt="Thumbnail 2" class="thumbnail" data-index="1">
+        <img src="batman.jpg.jpg" alt="Thumbnail 3" class="thumbnail" data-index="2">
+        <img src="imbatman.jpg" alt="Thumbnail 4" class="thumbnail" data-index="3">
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
